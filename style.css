@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Inter:wght@400&display=swap');
+
+:root{
+    --color-div: #121B1F;
+    --gris-claro: #999999;
+    --gris-oscuro: #666666;
+    --casi-negro: #111111;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: var(--gris-claro);
+}
+
+h1{
+    color: var(--gris-claro);
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    color: var(--gris-oscuro);
+}
+
+#quienessomos{
+    background-color: var(--color-div);
+    color: var(--gris-oscuro);
+    text-align: center;
+}
+#galeria{
+    padding-top: 120px;
+    text-align: center;
+    color: var(--gris-oscuro);
+}
+#galeria figure{
+    padding: 15px;
+}
+#galeria h3{
+    padding-top: 10px;
+}
+#galeria .container{
+    padding-top: 60px;
+}
+#locales{
+    background-color: var(--color-div);
+    color: var(--gris-claro);
+}
+#envios{
+    color: var(--gris-oscuro);
+}
+#envios table{
+    color: var(--gris-oscuro);
+}
+#historia{
+    background-color: var(--color-div);
+    color: var(--gris-claro);
+}
+
+footer{
+    background-color: var(--casi-negro);
+    color: var(--gris-claro);
+    padding: 50px 0;
+}
+
+.padded{
+    padding: 90px;
+}
+
+#contenedorLista .badge{
+    position: absolute;
+    right: 10px;
+    top: 25%;
+}
+
+@media(min-height: 2000px){
+    body{
+        min-height: 2000px;
+    }
+}
